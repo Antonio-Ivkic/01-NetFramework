@@ -6,7 +6,12 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Zdravo");
+            int a = 14;
+            double b = 3.14;
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+            Console.WriteLine("Zdravo"); //--> CTRL+SHIFT+Space --> opcija vise mogucih ispisa
+            Console.ReadKey();
         }
     }
 }

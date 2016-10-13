@@ -10,7 +10,7 @@ namespace ProvideTime
             return DateTime.Now.ToShortTimeString();
         }
 
-        public static string GetDatetime()
+        private static string GetDatetime()
         {
             return DateTime.UtcNow.ToLongDateString();
         }
